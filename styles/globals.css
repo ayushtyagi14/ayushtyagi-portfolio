@@ -194,6 +194,20 @@ body::-webkit-scrollbar {
   .timeline-card-container-wrapper {
     overflow-x: scroll; /* Force horizontal scroll on smaller screens */
   }
+
+  .timeline-card-container-wrapper::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .timeline-card-container-wrapper::-webkit-scrollbar-track {
+    background-color: #2b2b2b;
+    border-radius: 50px;
+  }
+  
+  .timeline-card-container-wrapper::-webkit-scrollbar-thumb {
+    background-color: #aed6f1;
+    border-radius: 50px;
+  }
   
   .timeline-card {
     flex: 0 0 calc(100% - 2rem);
