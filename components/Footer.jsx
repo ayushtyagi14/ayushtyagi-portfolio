@@ -14,8 +14,8 @@ const Footer = () => {
             <div className="md:w-[80%] w-[90%] mx-auto py-10 flex flex-col items-center gap-5">
               <div className="flex flex-row items-center w-full justify-between">
                 <h1 className="text-[34px] uppercase">Ayush</h1>
-                <a href="mailto:ayush.tyagi145@gmail.com">
-                  ayush.tyagi145@gmail.com
+                <a href="mailto:hello@ayushtyagi.com">
+                  hello@ayushtyagi.com
                 </a>
               </div>
               <div className="flex flex-row items-center w-full justify-between">
