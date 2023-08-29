@@ -27,16 +27,7 @@ const About = () => {
     <div className="bg-white mt-20" id="about">
       <div className="w-[90%] mx-auto">
         <div className="flex flex-col items-center gap-20 py-16">
-          <div className="grid lg:grid-cols-2 grid-cols-1 items-center lg:gap-0 gap-10">
-            <div className=" justify-center">
-              <img
-                src="/images/aboutImg.png"
-                alt="Ayush Tyagi"
-                className="rounded-full border-4 border-black lg:mt-0 mt-10"
-                width={400}
-                height={400}
-              />
-            </div>
+          <div className="grid lg:grid-cols-2 grid-cols-1 items-center w-full gap-10">
             <div className="flex flex-col md:items-start items-center gap-5">
               <span className="bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full font-dm font-extrabold uppercase">
                 About
@@ -45,8 +36,8 @@ const About = () => {
                 More About Me
               </h1>
               <p className="text-[28px]">
-                Hello! I am Ayush Tyagi, a multidisciplinary web developer
-                and developer based in New Delhi. I am very passionate about the
+                Hello! I am Ayush Tyagi, a multidisciplinary web developer and
+                developer based in New Delhi. I am very passionate about the
                 work that I do.
               </p>
               <p className="text-[18px]">
@@ -58,6 +49,15 @@ const About = () => {
                 venenatis vestibulum. Aenean lacinia bibendum nulla sed
                 consectetur.
               </p>
+            </div>
+            <div className="flex lg:justify-end justify-center">
+              <img
+                src="/images/aboutImg.png"
+                alt="Ayush Tyagi"
+                className="rounded-full border-4 border-black"
+                width={400}
+                height={400}
+              />
             </div>
           </div>
           <div className="flex flex-col items-center">

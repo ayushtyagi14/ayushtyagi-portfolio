@@ -42,7 +42,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="What is your name *"
-                  className="border-b-2 border-black focus:outline-none h-[50px] w-full font-dm"
+                  className="border-b-2 border-black rounded-b-md focus:outline-none h-[50px] w-full font-dm"
                 />
                 <ValidationError
                   prefix="Name"
@@ -56,7 +56,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   placeholder="Your email address *"
-                  className="border-b-2 border-black focus:outline-none h-[50px] w-full font-dm"
+                  className="border-b-2 border-black rounded-b-md focus:outline-none h-[50px] w-full font-dm"
                 />
                 <ValidationError
                   prefix="Email"
@@ -70,7 +70,7 @@ const Contact = () => {
                 id="message"
                 name="message"
                 placeholder="Tell me about your project *"
-                className="w-full h-[100px] focus:outline-none border-b-2 border-black font-dm"
+                className="w-full h-[100px] focus:outline-none border-b-2 border-black rounded-b-md font-dm"
               />
               <ValidationError
                 prefix="Message"
