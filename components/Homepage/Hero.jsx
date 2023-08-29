@@ -20,15 +20,15 @@ const Hero = () => {
             <Button url={"/"} title={"My Resume"} outerWidth={"15em"} />
           </div>
         </div>
-        {/* <div>
+        <div>
           <img
-            src="/images/ayush-hero.png"
+            src="/images/heroImg.png"
             alt="Ayush Tyagi"
-            className="bg-white rounded-t-full border-4 border-black"
-            width={600}
-            height={600}
+            className="rounded-t-full border-4 border-black lg:mt-0 mt-10"
+            width={650}
+            height={650}
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
