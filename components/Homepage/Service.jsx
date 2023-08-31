@@ -7,28 +7,28 @@ const Service = () => {
       title: "Performance Optimization",
       description:
         "Enhance your website's speed and performance through advanced optimization techniques. Shorten loading times, reduce bounce rates, and provide users with a seamless and satisfying browsing experience.",
-      color: "#e3e3ff",
+      color: "bg-[#e3e3ff]",
     },
     {
       id: 2,
       title: "Search Engine Optimization (SEO)",
       description:
         "Elevate your online presence with strategic SEO implementation. Improve organic search rankings, boost website visibility, and attract targeted traffic, ultimately driving meaningful conversions for your business.",
-      color: "#f3ffe3",
+      color: "bg-[#f3ffe3]",
     },
     {
       id: 3,
       title: "UI/UX Design Enhancement",
       description:
         "Elevate user engagement with captivating UI/UX design. Craft visually pleasing layouts, intuitive navigation, and delightful interactions that resonate with visitors, fostering lasting connections and memorable online experiences.",
-      color: "#fde4f9",
+      color: "bg-[#fde4f9]",
     },
     {
       id: 4,
       title: "E-commerce Integration",
       description:
         "Seamlessly transition your business into the digital marketplace. Implement secure and efficient e-commerce solutions, empowering you to showcase your products or services online, reach a wider audience, and facilitate seamless transactions for optimal growth.",
-      color: "#e3f2ff",
+      color: "bg-[#e3f2ff]",
     },
   ];
 
@@ -48,7 +48,7 @@ const Service = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-16 mt-10">
             {services.map((item) => (
               <div
-                className={`flex flex-col items-start gap-4 border-2 border-[#2b2b2b] rounded-xl px-4 py-8 bg-[${item.color}]`}
+                className={`flex flex-col items-start gap-4 border-2 border-[#2b2b2b] rounded-xl px-4 py-8 ${item.color}`}
                 key={item.id}
               >
                 <h1 className="text-[24px] font-bold">{item.title}</h1>

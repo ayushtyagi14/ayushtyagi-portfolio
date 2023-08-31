@@ -7,7 +7,8 @@ const Work = () => {
     {
       id: 1,
       title: "ShirtX Customizer Website",
-      imgUrl: "/images/shirtx.png",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1693477219/shirtx_fqwiit.mp4",
       description:
         "ShirtX is a dynamic website built with Vite and Node.js, featuring a 3D t-shirt model that allows users to customize their shirts with logos and graphics. Powered by Dall-e OpenAI integration, it enables AI-generated logo and graphic creation. Explore limitless possibilities in shirt customization.",
       techstack: ["Vite", "NodeJs", "ThreeJs", "TailwindCSS"],
@@ -17,7 +18,8 @@ const Work = () => {
     {
       id: 2,
       title: "ThoughtSpot Posts Website",
-      imgUrl: "/images/thoughtspot2.png",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1693477219/thoughtspot_m3hi0z.mp4",
       description:
         "This is a social interaction website that is fully functional and responsive. The app includes Google Authorization via Firebase. The site allows you to post any post, leave comments on other people's posts, and interact with other users. The website is built using NextJS and the database and authorization are handled by Firebase.",
       techstack: ["NextJs", "Firebase", "TailwindCSS", "GoogleAuth"],
@@ -27,7 +29,8 @@ const Work = () => {
     {
       id: 3,
       title: "Admin Dashboard Website",
-      imgUrl: "/images/dashboard.png",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1693477231/dashboard_yme1dx.mp4",
       description:
         "This is an Admin Panel Website that is fully responsive and fully functional. A dashboard, three pages, four apps, and seven fully functional charts are included in this admin panel. ReactJS is used to build this website, as well as syncfusion to build all the chart components.",
       techstack: ["ReactJs", "TailwindCSS", "Syncfusion", "JavaScript"],
@@ -37,7 +40,8 @@ const Work = () => {
     {
       id: 4,
       title: "BassHub Ecommerce Website",
-      imgUrl: "/images/basshub-ecommerce.png",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1693477226/basshub_we0ow2.mp4",
       description:
         "This is a fully functional Ecommerce Website where you can seamlessly select and add items to your cart, and then proceed to a secure and efficient payment process. Developed using NextJs offers a smooth and engaging browsing experience. Powered by Stripe, ensuring the highest transaction security.",
       techstack: ["NextJs", "TailwindCSS", "Sanity CMS", "Stripe Payments"],
@@ -59,13 +63,17 @@ const Work = () => {
       <div className="grid md:grid-cols-2 grid-cols-1 gap-10 text-white mt-20">
         {work.map((item) => (
           <div className="flex flex-col items-center gap-8" key={item.id}>
-            <Image
-              src={item.imgUrl}
+            <video
               width={600}
               height={600}
-              alt={item.title}
-              className="border-2 border-white p-1 rounded-lg"
-            />
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="rounded-xl border-2 border-white p-1 object-cover"
+            >
+              <source src={item.videoUrl} type="video/mp4" />
+            </video>
             <h1 className="lg:text-[30px] text-[26px] text-center font-bold text-white">
               {item.title}
             </h1>
