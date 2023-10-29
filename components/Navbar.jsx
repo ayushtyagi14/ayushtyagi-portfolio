@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Button from "./Button";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +10,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="w-full flex flex-row justify-between items-center px-10 pt-4 pb-5 text-white border-b-2 fixed z-[999] bg-[#2b2a2b]">
-        <h1 className="text-[34px] uppercase">Ayush</h1>
+        <Image
+          width={160}
+          height={160}
+          src={"/images/logo.png"}
+          alt="Ayush Tyagi Web Developer"
+        />
         <div className="lg:flex flex-row items-center gap-8 hidden">
           <Link href="/" className="hover:text-gray-300">
             Home

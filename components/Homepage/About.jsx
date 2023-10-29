@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button";
+import Image from "next/image";
 
 const About = () => {
   const timeline = [
@@ -9,7 +10,7 @@ const About = () => {
       position: "Frontend Developer Intern",
       duration: "June 2022 - Present",
       content:
-        "I am working as a Frontend developer intern at Gravitas. I have worked on the frontend of their website and also developed some new",
+        "I am working as a Frontend developer intern at Gravitas AI. I have worked on the frontend of their website and also developed some new skills.",
       color: "#AED6F1",
     },
     {
@@ -18,7 +19,7 @@ const About = () => {
       position: "Frontend Developer Intern",
       duration: "October 2022 - Jan 2023",
       content:
-        "I am working as a Frontend developer intern at Gravitas. I have worked on the frontend of their website and also developed some new",
+        "I have worked as a Frontend developer intern at Jugadu IN. I have worked on the frontend of their website and also developed some new skills.",
       color: "#f3ffe3",
     },
   ];
@@ -35,25 +36,30 @@ const About = () => {
               <h1 className="lg:text-[50px] md:text-[40px] text-[26px] text-center font-bold">
                 More About Me
               </h1>
-              <p className="text-[28px]">
-                Hello! I am Ayush Tyagi, a multidisciplinary web developer and
-                developer based in New Delhi. I am very passionate about the
-                work that I do.
+              <p className="text-[30px]">
+                Hello! I am Ayush Tyagi, a versatile web developer hailing from
+                New Delhi, deeply committed to my craft.
               </p>
-              <p className="text-[18px]">
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-                eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
-                commodo, tortor mauris condimentum nibh ut fermentum massa justo
-                sit. <br />
-                <br /> Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-                venenatis vestibulum. Aenean lacinia bibendum nulla sed
-                consectetur.
+              <p className="text-[17px]">
+                With over three years of hands-on experience in the world of web
+                development, including more than 1.5 years as a dedicated
+                frontend developer intern, I&apos;ve had the privilege of
+                collaborating with a diverse array of clients, both within India
+                and on the international stage. Beyond my professional journey,
+                I am the co-founder of my own startup company, GoldenStep, which
+                has enriched my understanding of the intricacies of the business
+                world.
+                <br />
+                <br /> At just 20 years of age, I bring a unique blend of
+                youthful enthusiasm and industry knowledge to every project,
+                driven by a passion for crafting exceptional digital solutions
+                that make an impact.
               </p>
             </div>
             <div className="flex lg:justify-end justify-center">
-              <img
+              <Image
                 src="/images/aboutImg.png"
-                alt="Ayush Tyagi"
+                alt="Ayush Tyagi Web Developer Frontend Developer"
                 className="rounded-full border-4 border-black"
                 width={400}
                 height={400}

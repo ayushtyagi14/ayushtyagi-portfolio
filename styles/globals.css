@@ -192,7 +192,7 @@ body::-webkit-scrollbar {
   }
 
   .timeline-card {
-    flex: 0 0 calc(100% - 2rem);
+    flex: 0 0 calc(95% - 2rem);
     margin-right: 1rem;
     margin-bottom: 1rem;
   }

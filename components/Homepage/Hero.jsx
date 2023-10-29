@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -13,7 +14,8 @@ const Hero = () => {
             I am Ayush Tyagi, <br /> a web developer
           </p>
           <p className="md:text-[24px] lg:w-[60%] w-full mt-8 mb-12 font-thin">
-            I&apos;m a freelance web developer based in New Delhi. I&apos;m very passionate about the work I do.
+            Passionate about turning your digital dreams into reality, one line
+            of code at a time
           </p>
           <div className="flex md:flex-row flex-col md:items-center items-start md:gap-8 gap-6">
             <Button url={"/"} title={"Let's Connect!"} outerWidth={"15em"} />
@@ -21,12 +23,12 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <img
-            src="/images/heroImg.png"
-            alt="Ayush Tyagi"
+          <Image
+            src="/images/heroImg2.jpeg"
+            alt="Ayush Tyagi Web Developer Frontend Developer"
             className="rounded-t-full border-4 border-black lg:mt-0 mt-10"
-            width={650}
-            height={650}
+            width={550}
+            height={550}
           />
         </div>
       </div>

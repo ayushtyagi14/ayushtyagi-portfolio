@@ -10,43 +10,51 @@ const Clients = () => {
   const testimonialData = [
     {
       id: 1,
-      company: "Velvet and Rose",
-      videoUrl: "https://res.cloudinary.com/dagkenafn/video/upload/v1693477311/velvetrose_vz9e2m.mp4",
+      company: "Riwaj Events",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1698527080/1698526891113636_wwtfrb.mp4",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ipsa necessitatibus consectetur voluptate unde assumenda laudantium, omnis iusto labore, minus quasi, dolorum iure alias voluptatem eum! Placeat hic aut repellat non accusamus temporibus consequuntur",
+        "Ayush has exceeded all our expectations with the website he designed for Riwaj Events. His talent in capturing the essence of our event and wedding management company was evident in every aspect of the site. Ayush's dedication to delivering a user-friendly, visually stunning platform was truly impressive. He demonstrated unwavering professionalism and efficiency throughout the project, making our collaboration a breeze. We highly recommend Ayush for anyone looking to elevate their business online. Thanks to Ayush, we now have a website that perfectly complements our business!",
       name: "Irteza Tariq",
       country: "/images/usa.png",
-      stars: "⭐⭐⭐⭐",
+      stars: "⭐⭐⭐⭐⭐",
+      visit: "https://riwaj-events.vercel.app/",
     },
     {
       id: 2,
       company: "EMS Xperience",
-      videoUrl: "https://res.cloudinary.com/dagkenafn/video/upload/v1693477224/ems_tpllyp.mp4",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1693477224/ems_tpllyp.mp4",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ipsa necessitatibus consectetur voluptate unde assumenda laudantium, omnis iusto labore, minus quasi, dolorum iure alias voluptatem eum! Placeat hic aut repellat non accusamus temporibus consequuntur",
+        "Working with Ayush on our EMS Xperience project has been a game-changer. His dedication and passion for our brand's vision were truly remarkable. Ayush turned our ideas into a stunning website that perfectly reflects our commitment to health and fitness. His attention to detail and creative flair brought our products to life online. We are extremely satisfied with the outcome and couldn't have asked for a better web developer. Thank you, Ayush!",
       name: "Sascha",
       country: "/images/spain.png",
-      stars: "⭐⭐⭐",
+      stars: "⭐⭐⭐⭐⭐",
+      visit: "https://ems-xperience.eu/",
     },
     {
       id: 3,
       company: "Yogayatra",
-      videoUrl: "https://res.cloudinary.com/dagkenafn/video/upload/v1693477236/yogayatra_q5p2ar.mp4",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1693477236/yogayatra_q5p2ar.mp4",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ipsa necessitatibus consectetur voluptate unde assumenda laudantium, omnis iusto labore, minus quasi, dolorum iure alias voluptatem eum! Placeat hic aut repellat non accusamus temporibus consequuntur",
+        "Hi Ayush, you have been phenomenal. Your unwavering support and exceptional work have transformed our online presence. I truly appreciate your expertise, timely delivery, and clear communication. Thank you for your invaluable contributions!",
       name: "Giri",
       country: "/images/india.png",
       stars: "⭐⭐⭐⭐⭐",
+      visit: "https://yogayatra.in/",
     },
     {
       id: 4,
       company: "Tuffer",
-      videoUrl: "https://res.cloudinary.com/dagkenafn/video/upload/v1693477233/tuffer_vs4lwf.mp4",
+      videoUrl:
+        "https://res.cloudinary.com/dagkenafn/video/upload/v1693477233/tuffer_vs4lwf.mp4",
       review:
         "Ayush truly stands apart from other developers I've worked with. He has a great combination of speed, technical expertise, and design.  He is working on my recent project called 'Tuffer' and it's been an excellent experience so far. He understood the project really quickly and delivered a top-notch website within weeks. If you're looking for a developer who can turn your ideas into reality, I totally recommend him.",
       name: "Rachit Yadav",
       country: "/images/india.png",
       stars: "⭐⭐⭐⭐⭐",
+      visit: "https://www.tuffer.co/",
     },
   ];
 
@@ -103,7 +111,7 @@ const Clients = () => {
                       <source src={item.videoUrl} type="video/mp4" />
                     </video>
                     <Button
-                      url={"/"}
+                      url={item.visit}
                       title={"Visit Site"}
                       outerWidth={"15em"}
                     />
@@ -116,7 +124,12 @@ const Clients = () => {
                     <div className="flex flex-col items-center">
                       <span className="flex flex-row items-center gap-2 md:text-[20px] font-bold font-dm">
                         {item.name}
-                        <Image src={item.country} width={20} height={20} alt="Client's Country" />
+                        <Image
+                          src={item.country}
+                          width={20}
+                          height={20}
+                          alt="Client's Country"
+                        />
                       </span>
                       <span className="md:text-[20px] font-bold font-dm">
                         {item.company}
