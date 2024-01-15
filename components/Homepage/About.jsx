@@ -75,7 +75,11 @@ const About = () => {
               industries. I am always interested in new, exciting and
               challenging adventures.
             </p>
-            <Button url={"/"} title={"My Resume"} outerWidth={"15em"} />
+            <Button
+              url={"https://publuu.com/flip-book/364679/831834"}
+              title={"My Resume"}
+              outerWidth={"15em"}
+            />
           </div>
           <div className="timeline-card-container-wrapper">
             <div className="timeline-card-container">

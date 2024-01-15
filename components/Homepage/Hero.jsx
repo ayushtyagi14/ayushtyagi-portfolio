@@ -18,8 +18,16 @@ const Hero = () => {
             of code at a time
           </p>
           <div className="flex md:flex-row flex-col md:items-center items-start md:gap-8 gap-6">
-            <Button url={"/"} title={"Let's Connect!"} outerWidth={"15em"} />
-            <Button url={"/"} title={"My Resume"} outerWidth={"15em"} />
+            <Button
+              url={"#contact"}
+              title={"Let's Connect!"}
+              outerWidth={"15em"}
+            />
+            <Button
+              url={"https://publuu.com/flip-book/364679/831834"}
+              title={"My Resume"}
+              outerWidth={"15em"}
+            />
           </div>
         </div>
         <div>
