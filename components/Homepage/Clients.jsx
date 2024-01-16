@@ -30,7 +30,7 @@ const Clients = () => {
       name: "Sascha",
       country: "/images/spain.png",
       stars: "⭐⭐⭐⭐⭐",
-      visit: "https://ems-xperience.eu/",
+      visit: "https://ems-xperience.com/",
     },
     {
       id: 3,
