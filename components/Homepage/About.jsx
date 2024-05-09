@@ -8,7 +8,7 @@ const About = () => {
       id: 1,
       company: "Gravitas AI",
       position: "Frontend Developer Intern",
-      duration: "June 2022 - Present",
+      duration: "June 2022 - October 2023",
       content:
         "I am working as a Frontend developer intern at Gravitas AI. I have worked on the frontend of their website and also developed some new skills.",
       color: "#AED6F1",
