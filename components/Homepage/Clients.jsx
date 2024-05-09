@@ -18,7 +18,7 @@ const Clients = () => {
       name: "Irteza Tariq",
       country: "/images/usa.png",
       stars: "⭐⭐⭐⭐⭐",
-      visit: "https://riwaj-events.vercel.app/",
+      visit: "https://riwaj.events/",
     },
     {
       id: 2,
