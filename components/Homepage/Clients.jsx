@@ -54,7 +54,7 @@ const Clients = () => {
       name: "Rachit Yadav",
       country: "/images/india.png",
       stars: "⭐⭐⭐⭐⭐",
-      visit: "https://www.tuffer.co/",
+      visit: "https://tuffer.vercel.app/",
     },
   ];
 
