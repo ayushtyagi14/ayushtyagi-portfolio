@@ -24,7 +24,7 @@ const Hero = () => {
               outerWidth={"15em"}
             />
             <Button
-              url={"https://drive.google.com/file/d/1mjL6evb5BsXYxITg7WgKsiPaQ3-WvHfx/view?usp=sharing"}
+              url={"https://drive.google.com/file/d/1NETaWy8Dky1TlZE9bxu26Scbt6kQBStD/view?usp=sharing"}
               title={"My Resume"}
               outerWidth={"15em"}
             />
