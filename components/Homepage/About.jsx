@@ -76,7 +76,7 @@ const About = () => {
               challenging adventures.
             </p>
             <Button
-              url={"https://drive.google.com/file/d/1NETaWy8Dky1TlZE9bxu26Scbt6kQBStD/view?usp=sharing"}
+              url={"https://drive.google.com/file/d/1WbVLwjiRuxCve-xVPrKzFtNeZiWZJVPt/view?usp=sharing"}
               title={"My Resume"}
               outerWidth={"15em"}
             />
