@@ -1,4 +1,5 @@
 import React from "react";
+import { dmSans } from "../../app/layout";
 
 const Service = () => {
   const services = [
@@ -39,7 +40,9 @@ const Service = () => {
         id="services"
       >
         <div className="flex flex-col items-center w-[90%] mx-auto gap-6">
-          <span className="bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full font-dm font-extrabold uppercase">
+          <span
+            className={`bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full ${dmSans.className} font-extrabold uppercase`}
+          >
             My Services
           </span>
           <p className="lg:text-[50px] md:text-[40px] text-[28px] text-center leading-tight md:w-[80%] font-extrabold">

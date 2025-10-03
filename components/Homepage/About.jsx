@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import Image from "next/image";
+import { dmSans } from "../../app/layout";
 
 const About = () => {
   const timeline = [
@@ -30,7 +31,9 @@ const About = () => {
         <div className="flex flex-col items-center gap-20 py-16">
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center w-full gap-10">
             <div className="flex flex-col md:items-start items-center gap-5">
-              <span className="bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full font-dm font-extrabold uppercase">
+              <span
+                className={`bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full ${dmSans.className} font-extrabold uppercase`}
+              >
                 About
               </span>
               <h1 className="lg:text-[50px] md:text-[40px] text-[26px] text-center font-bold">
@@ -93,7 +96,9 @@ const About = () => {
                       <span className="text-center font-bold uppercase">
                         {item.duration}
                       </span>
-                      <h1 className="my-2 font-dm font-bold">{item.company}</h1>
+                      <h1 className={`my-2 ${dmSans.className} font-bold`}>
+                        {item.company}
+                      </h1>
                       <p className="font-thin">{item.content}</p>
                     </div>
                   </div>

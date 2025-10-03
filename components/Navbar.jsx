@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="w-full flex flex-row justify-between items-center px-10 pt-4 pb-5 text-white border-b-2 fixed z-[999] bg-[#2b2a2b]">
+      <div className="w-full flex flex-row justify-between items-center px-10 pt-4 pb-5 text-white border-b-2 fixed top-0 z-[999] bg-[#2b2a2b]">
         <Image
           width={160}
           height={160}

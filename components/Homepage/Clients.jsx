@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import { dmSans } from "../../app/layout";
 
 const Clients = () => {
   const testimonialData = [
@@ -64,7 +65,9 @@ const Clients = () => {
         className="text-white mt-20 flex flex-col items-center gap-4 w-[90%] mx-auto"
         id="testimonials"
       >
-        <span className="bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full font-dm font-extrabold uppercase">
+        <span
+          className={`bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full ${dmSans.className} font-extrabold uppercase`}
+        >
           Testimonials
         </span>
         <h1 className="lg:text-[50px] md:text-[40px] text-[26px] text-center font-bold">
@@ -96,7 +99,9 @@ const Clients = () => {
                   key={item.id}
                 >
                   <div className="flex flex-col items-center gap-4 md:w-[40%] mt-10 md:mt-0">
-                    <h1 className="lg:text-[40px] text-[30px] text-center font-dm font-extrabold md:block hidden">
+                    <h1
+                      className={`lg:text-[40px] text-[30px] text-center ${dmSans.className} font-extrabold md:block hidden`}
+                    >
                       {item.company}
                     </h1>
                     <video
@@ -118,11 +123,15 @@ const Clients = () => {
                   </div>
                   <div className="flex flex-col md:gap-8 gap-2 items-center h-full justify-around md:w-[60%]">
                     <span>{item.stars}</span>
-                    <p className="text-center md:text-[18px] font-dm font-thin">
+                    <p
+                      className={`text-center md:text-[18px] ${dmSans.className} font-thin`}
+                    >
                       {item.review}
                     </p>
                     <div className="flex flex-col items-center">
-                      <span className="flex flex-row items-center gap-2 md:text-[20px] font-bold font-dm">
+                      <span
+                        className={`flex flex-row items-center gap-2 md:text-[20px] font-bold ${dmSans.className}`}
+                      >
                         {item.name}
                         <Image
                           src={item.country}
@@ -131,7 +140,9 @@ const Clients = () => {
                           alt="Client's Country"
                         />
                       </span>
-                      <span className="md:text-[20px] font-bold font-dm">
+                      <span
+                        className={`md:text-[20px] font-bold ${dmSans.className}`}
+                      >
                         {item.company}
                       </span>
                     </div>

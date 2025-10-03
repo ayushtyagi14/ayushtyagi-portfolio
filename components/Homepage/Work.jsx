@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Button from "../Button";
+import { dmSans } from "../../app/layout";
 
 const Work = () => {
   const work = [
@@ -53,7 +54,9 @@ const Work = () => {
   return (
     <div className="mt-20 w-[90%] mx-auto" id="work">
       <div className="flex flex-col items-center gap-5">
-        <span className="bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full font-dm font-extrabold uppercase">
+        <span
+          className={`bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full ${dmSans.className} font-extrabold uppercase`}
+        >
           My Works
         </span>
         <h1 className="lg:text-[50px] md:text-[40px] text-[26px] text-center font-bold text-white md:w-[70%]">
@@ -77,7 +80,9 @@ const Work = () => {
             <h1 className="lg:text-[30px] text-[26px] text-center font-bold text-white">
               {item.title}
             </h1>
-            <p className="font-dm font-light w-[90%] leading-6 text-[14px]">
+            <p
+              className={`${dmSans.className} font-light w-[90%] leading-6 text-[14px]`}
+            >
               {item.description}
             </p>
             <div className="flex lg:flex-row flex-col gap-5 lg:items-center items-start justify-between w-[90%] mt-4">

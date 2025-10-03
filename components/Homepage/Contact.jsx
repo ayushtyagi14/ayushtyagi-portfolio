@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import { dmSans } from "../../app/layout";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xeqbgnaz");
@@ -16,7 +17,9 @@ const Contact = () => {
     <div className="mt-20 pt-10" id="contact">
       <div className="md:w-[80%] w-[90%] mx-auto border-2 border-[#2b2b2b] bg-white rounded-xl py-10">
         <div className="flex flex-col items-center md:pb-20 pb-10 gap-8">
-          <span className="bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full font-dm font-extrabold uppercase">
+          <span
+            className={`bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-[#2b2b2b] text-[#2b2b2b] rounded-full ${dmSans.className} font-extrabold uppercase`}
+          >
             Contact Me
           </span>
           <h1 className="lg:text-[50px] md:text-[40px] text-[26px] text-center font-bold md:w-[70%] leading-none">
@@ -42,7 +45,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="What is your name *"
-                  className="border-b-2 border-black rounded-b-md focus:outline-none h-[50px] w-full font-dm"
+                  className={`border-b-2 border-black rounded-b-md focus:outline-none h-[50px] w-full ${dmSans.className}`}
                 />
                 <ValidationError
                   prefix="Name"
@@ -56,7 +59,7 @@ const Contact = () => {
                   type="email"
                   name="email"
                   placeholder="Your email address *"
-                  className="border-b-2 border-black rounded-b-md focus:outline-none h-[50px] w-full font-dm"
+                  className={`border-b-2 border-black rounded-b-md focus:outline-none h-[50px] w-full ${dmSans.className}`}
                 />
                 <ValidationError
                   prefix="Email"
@@ -70,7 +73,7 @@ const Contact = () => {
                 id="message"
                 name="message"
                 placeholder="Tell me about your project *"
-                className="w-full h-[100px] focus:outline-none border-b-2 border-black rounded-b-md font-dm"
+                className={`w-full h-[100px] focus:outline-none border-b-2 border-black rounded-b-md ${dmSans.className}`}
               />
               <ValidationError
                 prefix="Message"

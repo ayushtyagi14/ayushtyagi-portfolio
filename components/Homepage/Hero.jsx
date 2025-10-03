@@ -1,13 +1,16 @@
 import React from "react";
 import Button from "../Button";
 import Image from "next/image";
+import { dmSans } from "../../app/layout";
 
 const Hero = () => {
   return (
     <div className="md:mt-[90px] mt-[10px] text-white py-10 w-[90%] mx-auto">
       <div className="mt-20 flex lg:flex-row flex-col items-center">
         <div>
-          <span className="bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-white text-[#2b2b2b] rounded-full font-dm font-extrabold">
+          <span
+            className={`bg-[#AED6F1] text-[20px] py-2 px-6 border-2 border-white text-[#2b2b2b] rounded-full ${dmSans.className} font-extrabold`}
+          >
             HELLO!
           </span>
           <p className="lg:text-[70px] md:text-[50px] text-[40px] mt-8 leading-tight font-bold">
