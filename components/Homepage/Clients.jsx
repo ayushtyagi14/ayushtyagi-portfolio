@@ -19,7 +19,7 @@ const Clients = () => {
       name: "Irteza Tariq",
       country: "/images/usa.png",
       stars: "⭐⭐⭐⭐⭐",
-      visit: "https://riwaj-events.vercel.app/",
+      visit: "https://riwaj.events/",
     },
     {
       id: 2,
@@ -55,7 +55,7 @@ const Clients = () => {
       name: "Rachit Yadav",
       country: "/images/india.png",
       stars: "⭐⭐⭐⭐⭐",
-      visit: "https://www.tuffer.co/",
+      visit: "https://tuffer.vercel.app/",
     },
   ];
 

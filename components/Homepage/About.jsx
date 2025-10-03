@@ -9,7 +9,7 @@ const About = () => {
       id: 1,
       company: "Gravitas AI",
       position: "Frontend Developer Intern",
-      duration: "June 2022 - Present",
+      duration: "June 2022 - October 2023",
       content:
         "I am working as a Frontend developer intern at Gravitas AI. I have worked on the frontend of their website and also developed some new skills.",
       color: "#AED6F1",
@@ -79,7 +79,7 @@ const About = () => {
               challenging adventures.
             </p>
             <Button
-              url={"https://publuu.com/flip-book/364679/831834"}
+              url={"https://drive.google.com/file/d/1WbVLwjiRuxCve-xVPrKzFtNeZiWZJVPt/view?usp=sharing"}
               title={"My Resume"}
               outerWidth={"15em"}
             />

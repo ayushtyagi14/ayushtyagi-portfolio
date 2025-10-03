@@ -27,7 +27,7 @@ const Hero = () => {
               outerWidth={"15em"}
             />
             <Button
-              url={"https://publuu.com/flip-book/364679/831834"}
+              url={"https://drive.google.com/file/d/1WbVLwjiRuxCve-xVPrKzFtNeZiWZJVPt/view?usp=sharing"}
               title={"My Resume"}
               outerWidth={"15em"}
             />
