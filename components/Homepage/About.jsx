@@ -11,18 +11,18 @@ const About = () => {
       id: 1,
       company: "Gravitas AI",
       position: "Frontend Developer Intern",
-      duration: "June 2022 - October 2023",
+      duration: "July 2022 - October 2023",
       content:
-        "I am working as a Frontend developer intern at Gravitas AI. I have worked on the frontend of their website and also developed some new skills.",
+        "Contributed to AI-powered web platforms using Angular and Next.js with TypeScript. Designed modular frontend architecture that improved feature delivery speed and optimized data tracking accuracy. Mentored interns on component design patterns and performance best practices.",
       color: "#AED6F1",
     },
     {
       id: 2,
       company: "Jugadu IN",
       position: "Frontend Developer Intern",
-      duration: "October 2022 - Jan 2023",
+      duration: "October 2023 - January 2024",
       content:
-        "I have worked as a Frontend developer intern at Jugadu IN. I have worked on the frontend of their website and also developed some new skills.",
+        "Built a real-time chat system with Next.js and WebSockets and integrated PayTM payments for in-app transactions. Collaborated closely with backend teams on REST APIs, validation, and auth flows to enhance reliability and user experience.",
       color: "#f3ffe3",
     },
   ];
@@ -43,23 +43,37 @@ const About = () => {
                 More About Me
               </h1>
               <p className="text-[30px] text-[#2b2b2b] text-center md:text-left">
-                Hello! I am Ayush Tyagi, a versatile web developer hailing from
-                New Delhi, deeply committed to my craft.
+                Hello! I&apos;m Ayush Tyagi, a frontend-leaning software
+                developer from New Delhi who loves turning ideas into polished,
+                production-ready web experiences.
               </p>
+
               <p className="text-[17px] text-[#2b2b2b]/90 text-center md:text-left">
-                With over three years of hands-on experience in the world of web
-                development, including more than 1.5 years as a dedicated
-                frontend developer intern, I&apos;ve had the privilege of
-                collaborating with a diverse array of clients, both within India
-                and on the international stage. Beyond my professional journey,
-                I am the co-founder of my own startup company, GoldenStep, which
-                has enriched my understanding of the intricacies of the business
-                world.
+                Over the past few years, I&apos;ve worked across startups,
+                client projects, and my own ventures—building responsive,
+                high-performance applications with
+                <strong> Next.js, React, and modern DevOps workflows</strong>.
+                My journey includes international projects for brands like{" "}
+                <strong>
+                  PrintbyW, Nirali Decor, Provision Home Improvements,
+                </strong>{" "}
+                and <strong>Riwaj Events</strong>, where I handled everything
+                from UI/UX to SEO optimization and deployment.
                 <br />
-                <br /> At just 20 years of age, I bring a unique blend of
-                youthful enthusiasm and industry knowledge to every project,
-                driven by a passion for crafting exceptional digital solutions
-                that make an impact.
+                <br />I also co-founded a student-led D2C startup called{" "}
+                <strong>Goldenstep</strong>, where we built our own product
+                line, pitched to investors in Bangalore, and learned first-hand
+                about business execution, budgeting, and marketing strategy. The
+                experience taught me how technical decisions align with
+                real-world growth.
+                <br />
+                <br />
+                Today, I bring a mix of{" "}
+                <strong>
+                  hands-on development, design sensibility, and startup mindset
+                </strong>
+                —aiming to build digital products that are fast, purposeful, and
+                truly impactful.
               </p>
             </div>
 

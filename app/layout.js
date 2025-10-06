@@ -16,11 +16,23 @@ export const space = Space_Grotesk({
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body
-                className={`${space.className} ${space.variable} antialiased`}
-            >
+            <head>
+                <title>Ayush Tyagi | Web Developer</title>
+                <meta
+                    name="description"
+                    content="Portfolio of Ayush Tyagi — a frontend-focused web developer specializing in Next.js, React, and modern UI/UX. Passionate about building fast, responsive, and impactful digital experiences for global clients."
+                />
+
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta
+                    name="keywords"
+                    content="Ayush Tyagi, Web Developer, Frontend Developer, Next.js Developer, React Developer, JavaScript, Portfolio, Developer Delhi, Freelance Web Developer"
+                />
+            </head>
+            <body className={`${space.className} ${space.variable} antialiased`}>
                 {children}
             </body>
         </html>
+
     );
 }
